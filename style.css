@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Mukta:wght@200&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body::before{
+    content: " ";
+     background-image: url('https://drive.google.com/uc?export=view&id=1D9AEnmeE_6zQ1iYfuRIcp8Y3BE9xjU1-') ;
+    position:fixed;
+     height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: ;
+    top: 0;
+    left: 0;
+    
+    
+}
+body{
+font-family: 'Montserrat', sans-serif;
+color: aliceblue;
+
+}
+
+/* Headings */
+@media only screen and (max-width: 1000px){
+    #title{font-size: 33px !important;}
+     #description{
+            font-size: 21px !important;
+            margin-top: 57px;
+            
+        }
+}
+
+#title {
+    position: relative;
+    top: 21px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.4rem;
+    font-family: 'Mukta', sans-serif;
+}
+#description{
+    text-align: center;
+   font-size: 1.3rem;
+}
+}
+
+
+/* Form */
+
+.form-group{
+   display: flex;
+   width: 50%;
+
+   
+}
+
+.form-style {
+ padding: 12px;
+    display: block;
+    width: 100%;
+}
+.form-style:focus{
+    /* transition: green ease-in-out; */
+    border:2px solid #aa1b1b;
+
+}
+   
+}
+
+#survey-form{
+    margin: 18px 18px;
+}
+
+form{
+display:flex;
+flex-direction: column;
+padding: 35px 91px;
+justify-content: center;
+margin: 44px auto;
+width: 50%;
+flex-wrap: wrap;
+background-color: #193919b8;
+}
+
+@media only screen and (max-width: 1000px) {
+    form{
+        padding: 42px 44px;
+        width: 70%;
+    }
+
+}
+.textmargin{
+     margin-bottom: 14px;
+    font-size: 1.2rem;
+    font-weight: 700;
+} 
+
+/* Submit Button */
+
+#submit{
+    font-size: 1.2rem;
+    padding: 10px;
+}
+
+button{
+    margin-top: 12px;
+    padding: 12px;
+  background-color: #aa1b1b;
+  color: white;
+  font-weight: bold;
+  font-family: 'Mukta', sans-serif;
+  border: none;
+}
+
+
+ .input-radio, .input-checkbox{
+    display: inline-block;
+   min-height: 1.25rem;
+    min-width: 1.25rem;
+
+}
+label {
+    display: inline-block;
+    align-items: center;
+    font-size: 1.12rem;
+    margin-bottom: 0.5rem;
+    margin-top: 23px;
+}
+
+input, textarea #select{
+    font-family:'Mukta', sans-serif ;
+    font-weight: bold;
+}
+
+#dropdown{
+font-family: 'Montserrat' ;
+font-weight: 600;
+}
+

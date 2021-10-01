@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>freeCodeCamp Project-2 - Survey Form</title>
+</head>
+
+<body>
+    <div id="main">
+
+        <h1 id="title">Employee Satisfaction Survey</h1>
+        <p id="description">Thank you for taking the time to help us improve our Employee Satisfaction </p>
+
+
+        <form action="#" id="survey-form">
+            <div class="form-group">
+                <label for="name" id="name-label" class="textmargin">Name</label>
+                <input type="text" id="name" placeholder="Enter your Name" class="form-style" required>
+            </div>
+            <div class="form-group">
+                <label for="email" id="email-label" class="textmargin">Email</label><br>
+                <input type="email" name="email" id="email" placeholder="Enter your Email" class="form-style" required>
+
+            </div>
+            <div class="form-group">
+                <label for="number" id="number-label" class="textmargin">Age</label>
+                <input type="number" name="age" id="number" placeholder="Enter your Age" min="10" max="100"
+                    class="form-style">
+
+            </div>
+            <div class="form-group">
+                <label for="dropdown" class="textmargin">Select your Department</label>
+                <select name="department" id="dropdown" class="form-style">
+                    <option value="select" id="select">Select your Option</option>
+                    <option value="hr-Dept">Human Resource Department</option>
+                    <option value="marketing-dept">Marketing</option>
+                    <option value="sales-dept">Sales</option>
+                    <option value="operations-dept">Operations Management </option>
+                    <option value="r&d">Research and Development</option>
+                </select>
+
+            </div><br>
+            <div class="radio">
+                <p class="textmargin">Do you feel valued at work?</span><br>
+                    <input type="radio" name="choice" value="yes" class="input-radio" id="yes" checked>
+                    <label for="yes">Yes</label><br>
+                    <input type="radio" name="choice" value="no" class="input-radio" id="no">
+                    <label for="no">No</label>
+            </div><br>
+            <div class="checkbox">
+                <span class="textmargin">How satisfied yor are?</span><br>
+                <input type="checkbox" name="choice" id="1choice" value="1" class="input-checkbox">
+                <label for="1choice">Are Valued at work?</label><br>
+                <input type="checkbox" name="choice" id="2choice" value="2" class="input-checkbox">
+                <label for="2choice">You have the resources you need to perform your job well.</label><br>
+                <input type="checkbox" name="choice" id="3choice" value="3" class="input-checkbox">
+                <label for="3choice">Your job cause you stress or anxiety</label><br>
+                <input type="checkbox" name="choice" id="4choice" value="4" class="input-checkbox">
+                <label for="4choice">Are you happy with your salary?</label>
+
+            </div>
+            <div class="form-group">
+                <label for="additional-feedback" class="textmargin">Please Provide Any Additional
+                    Feedback</label>
+                <textarea name="feedback" id="additional-feedback" cols="30" rows="10" class="form-style"
+                    placeholder="Optional"></textarea>
+            </div>
+            <div class="form-group">
+                <button id="submit" class="form-style">Submit</button>
+            </div>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
