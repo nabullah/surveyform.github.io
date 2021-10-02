@@ -150,9 +150,11 @@ font-weight: 600;
 }
 
 
-
+@media screen and (max-width:410px) {
+    
   label.input-checkbox2 {
     position: relative;
     top: -49px;
     right: -38px;
+}
 }
