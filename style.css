@@ -51,7 +51,7 @@ color: aliceblue;
 /* Form */
 
 .form-group{
-   display: flex;
+   /* display: flex; */
    width: 50%;
 
    
@@ -75,13 +75,13 @@ color: aliceblue;
 }
 
 form{
-display:flex;
-flex-direction: column;
+/* display:flex; */
+/* flex-direction: column; */
 padding: 35px 91px;
 justify-content: center;
 margin: 44px auto;
 width: 50%;
-flex-wrap: wrap;
+/* flex-wrap: wrap; */
 background-color: #193919b8;
 }
 
